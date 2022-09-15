@@ -1,7 +1,5 @@
-.title-container {
+.content-container {
     display: flex;
-}
-
-body {
-    padding-left: 1rem;
+    width: 45vw;
+    align-items: center;
 }
