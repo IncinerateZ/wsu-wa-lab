@@ -71,7 +71,7 @@ function addMovie(listEl, movie) {
             }')"
             onmouseover="this.firstChild.nextSibling.play();"
             onmouseout="this.firstChild.nextSibling.pause(); this.firstChild.nextSibling.currentTime = 0;">
-            <video autoplay
+            <video
                 src=${movie.trailer}></video>
             <div class="video-mask"></div>
             <div class="movie-desc">${movie.description}</div>
@@ -80,14 +80,65 @@ function addMovie(listEl, movie) {
         </div>`;
 }
 
+function editDistance(str1, str2) {
+    const track = Array(str2.length + 1)
+        .fill(null)
+        .map(() => Array(str1.length + 1).fill(null));
+    for (let i = 0; i <= str1.length; i += 1) {
+        track[0][i] = i;
+    }
+    for (let j = 0; j <= str2.length; j += 1) {
+        track[j][0] = j;
+    }
+    for (let j = 1; j <= str2.length; j += 1) {
+        for (let i = 1; i <= str1.length; i += 1) {
+            const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
+            track[j][i] = Math.min(
+                track[j][i - 1] + 1,
+                track[j - 1][i] + 1,
+                track[j - 1][i - 1] + indicator,
+            );
+        }
+    }
+    return track[str2.length][str1.length];
+}
+
+function clearMovies(el) {
+    el.innerHTML = '';
+}
+
+function initMovies(movieListEl) {
+    for (let movie of movies) {
+        addMovie(movieListEl, movie);
+    }
+}
+
 window.onload = () => {
     console.log('Page Loaded');
 
     const movieListEl = document.getElementById('movies-list');
+    const searchBarEl = document.getElementById('searchbar');
+    searchBarEl.onkeyup = (e) => {
+        let searchtext = searchBarEl.innerText;
 
-    for (let movie of movies) {
-        addMovie(movieListEl, movie);
-    }
+        clearMovies(movieListEl);
+        if (searchtext === '' || searchtext === 'SEARCH') {
+            initMovies(movieListEl);
+        } else {
+            for (let movie of movies) {
+                if (
+                    movie.title.includes(searchtext) ||
+                    editDistance(
+                        movie.title.toLowerCase(),
+                        searchtext.toLowerCase(),
+                    ) <= 5
+                )
+                    addMovie(movieListEl, movie);
+            }
+        }
+    };
+
+    initMovies(movieListEl);
 };
 
 // 'moscow does not know lies', 'mirror'

@@ -17,7 +17,11 @@
 </head>
 
 <body>
-    <h1 class="content-title">MOVIES & DRAMAS</h1>
+    <div class="header">
+        <h1 class="content-title">MOVIES & DRAMAS</h1>
+        <div id="searchbar" contenteditable="true" onmousedown="if(this.innerText === 'SEARCH')this.innerText = ''"
+            onfocusout="if(this.innerText === '') this.innerText='SEARCH'" onchange="handleSearch()">SEARCH</div>
+    </div>
     <div class="movies-list" id="movies-list">
     </div>
 </body>
