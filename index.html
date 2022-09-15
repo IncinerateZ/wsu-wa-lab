@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+    <title>Movies from our countries</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+    <div class="header">
+        <h1 class="content-title">MOVIES & DRAMAS</h1>
+        <div id="searchbar" contenteditable="true" onmousedown="if(this.innerText === 'SEARCH')this.innerText = ''"
+            onfocusout="if(this.innerText === '') this.innerText='SEARCH'" onchange="handleSearch()">SEARCH</div>
+    </div>
+    <div class="movies-list" id="movies-list">
+    </div>
 </body>
+
 </html>
