@@ -1,5 +1,53 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(224, 254, 255);
+}
+
 .content-container {
-    display: flex;
-    width: 45vw;
     align-items: center;
+    justify-content: space-around;
+}
+
+.content-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movie-title a {
+    text-decoration: none;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.movie-title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.movie-desc {
+    width: 50vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.movie-banner {
+    margin-bottom: 1rem;
+}
+
+.movie-banner img {
+    width: 450px;
 }
