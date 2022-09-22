@@ -6,7 +6,7 @@ const movies = [
             "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.",
         poster: '/src/squidgameposter.jpg',
         trailer:
-            'https://imdb-video.media-imdb.com/vi2427699993/1434659607842-pgv4ql-1631100525843.mp4?Expires=1663306602&Signature=pnl~4BrhLrUm6x4nto94TWVmEOz10~O7WaT10AYl5AZwHZ71~vQ8-3jjK-viXzzaqem1x~~Ii1~yf1Sop1uif57SbpGHk3f-xw6ZK5sgjp16khB64qYfgDczimkztPTn77oItM9K4uVac3VA2YS82nVJwdqxB6ryMA8eGyrQ29C~p9xEoYdvoc2Uy6fuY-xecGt1wse8ZyucyHYRzeBTa0gXEtnJJZZsiYTysBvjE39ATY~Hk-MP3RXQgTFy2xAgLN0tgDi6g27AJo-JH7Tf0W8oMNwH7w4tpQEwWlpGqRcAd2BuB-PzO3PUdDu9yX4KRSnNXQS4WyYSeDxW4hHz0Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+            'https://imdb-video.media-imdb.com/vi2427699993/1434659607842-pgv4ql-1631100525843.mp4?Expires=1663892733&Signature=V8K-lRqVcHsm-ypm8u1o2WS-4S~jyGjR5v3W5QlsAtJ-g5DZ6SKk1knRq9bNkSPU7uGNMppnQdDql~vn-un70dStBqhwSc0FkIIqcRSI5JhcvI0EK8QT2n29V2sTrJ14~AvaWLyPmaKlGF60eHegxItlR-18q2R8Mf3~mGCGMBax02QyeUqNa4wMDTojz3dHVhTbUhRumjieT1mc7BWY8VT5BWBvdV5fmui9mV2frx-Ix6EXlhwuTLwME1tO~nM2aTdo0aHq27GHOieIasUQsDrmY0BH1~UZqM6yyCE9LkD4jCgL0jIFsEFQxwhyfQ99Qvnx6ztGCFdwTm-hgH9gJg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
     },
     {
         title: 'Parasite',
@@ -15,7 +15,7 @@ const movies = [
             'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
         poster: '/src/parasiteposter.jpg',
         trailer:
-            'https://imdb-video.media-imdb.com/vi1015463705/1434659607842-pgv4ql-1606954080073.mp4?Expires=1663313435&Signature=L2XcExAi2iWIq7ffzjHzXd9Mkf9dPoDb8D~~smuFgK11~LZQwVbGrRf5Lf2q63wzGxjgJbQEIVwAIbobsBAE2sHWKvHDp6xvdp0lvPcLaM-EUGAavpymOFnTcJU3yVy5QNR9Bg9WLNbFGJ1iYQD9gc52w9pDC9PIk6dE6X8ABGAsykg52uNY22SLqM6gnV2K3VLh3My95GYy-Jhi~vfgVenVmza8Z9PlIrUUK9RgXUnZi~6ZNQ7FIVIcbe~DAoub2XcyB4ghfao55mM0ZO5UDnRzqwDr1~c-h5FirzTWdCE7FgyyMhEstI4tvydhdvr~jGp8-Cw4Fx5chmcizPBTlA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+            'https://imdb-video.media-imdb.com/vi1015463705/1434659607842-pgv4ql-1606954080073.mp4?Expires=1663892851&Signature=EJQW9XMUzGuoobG~HZD9Be82fI8R8O2e8f4WRTHRrPxZ1KzBiOSn-50hbnfL~v0c9dwbQ9~Q9r3Jp1Uj3SsRmZ9EDm9x6RBMVl6FbPqlFYlORj9b0Vk2fO3zbS55U9PngeCLxMMye~UWDDw~kKZK~5gwbsqKGlASn~dBaXHvx3oR8ELF6Zx6EOtaw0KNYrYXz6WKxVNhNFiv4QX4DmNV63liRvhbNWX0CBI01-EcOcWjxX-S2H0UdnKmmgAX5CuR-kkjxkOvS1TFRZXt~AWRbvKaF96XkE3k0jtRNwj5RDwCevrVdQhpUNI22BgF1ZbDI36LblTuYaRE52fBLuOGuQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
     },
     {
         title: 'Moscow Does Not Believe in Tears',
@@ -24,7 +24,7 @@ const movies = [
             'Three young provincial women come to Moscow in search of what people in all the capitals of the world are looking for - love, happiness and prosperity. Their destinies develop exactly as the character of each of the girls suggests.',
         poster: '/src/moscowposter.jpg',
         trailer:
-            'https://imdb-video.media-imdb.com/vi3314795033/1434659607842-pgv4ql-1650990085681.mp4?Expires=1663314087&Signature=oNFyuG-iD2NEID8LGZfDs1lF9vmhKrKtzziTC-ekEcxClR2em4VEvhoUaWTRSAQoVJBL2wAwJEEwM405pj6T5Z~mrqqm8ViwHz5xriTNVXuJU4HnUW2Cpv8THdQIDFwr6mDz~HJTRxdKu-EnFWEB99j~S2cuxD1Ap0O~PNwJibHmzftyc7P1QdvNLrzCqiluNSMSrDPCjezB1mYLGyRmQJ72MQ8b0E6mBwNI-mFTdHpviZlNLpEtTSxX~Q4OXqn4~bJc4cVeHP7RVtZnhBXPTmIydogQWOUlPmgwgHksTlSotDmlPx6jDjPJI1k7z6VIQ8HyZbgOKTPHr4KAQFxK-w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+            'https://imdb-video.media-imdb.com/vi3314795033/1434659607842-pgv4ql-1650990085681.mp4?Expires=1663892888&Signature=Mp5Ffn7ieDAAqhyi1FVOz~lHOj9is~PDFI4PcNbqtZO2YscocVDNPGOfLiVc78BERTsko2nTv380iN1ba9iKC7~VMTomIImytNWZm0bswgfcDAucLqtmDd-F37nK6pREui31mLl4HYYEn4qnVo-yETyTFihhm7s0~hBxNFvJuW1KM9HgsStLTFScU5u7yWDK1dmEuJIJIhzTiuq~tk4GYm5MTQJULiZJ~rzR5-5E4Pq9~ME1Jg3X0fnQZMNSlaOWTqO~4kjQfo9dgiLIz1gyLXmwBtEMPG13wvy9GjbOqd8DsnfJQ7LuLNJIiGbBXobx~EhQx~gIjhh-ekLVT-j1QA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
     },
     {
         title: 'Mirror',
@@ -33,7 +33,7 @@ const movies = [
             'A dying man in his forties remembers his past. His childhood, his mother, the war, personal moments and things that tell of the recent history of all the Russian nation.',
         poster: '/src/mirrorposter.jpg',
         trailer:
-            'https://imdb-video.media-imdb.com/vi1570226969/1434659607842-pgv4ql-1633638588769.mp4?Expires=1663314239&Signature=ET4-kkX6Lg50GI1YI~cLeVd3REDwEamokqBsdCtjGkuKn~8bZgwDFVL9SGZvwk59Wr9LkdCwzbZpWW2vDltdM5ywt~I7b4-KowISVX~RIhsLfBIJgiMnKHJQrmXT8Q7bR9Uhnmdwvn7ij4eQwQBoFLWV6h5eJWjV655HXQfPU6Jbj~4AZBRyCEqpng0G90hehBumKhaVJ9x-1jTc1pGP7g77npXo24wfV3k-kshBcjUcpYvs1BCIOOdKZdkGl7Y6gQ99aI41f4YfMj-nIelYmvRv6Wls7-W7aCZqZRjlcBoh2Px66tzs9KEctoc9rE2ydNqIIf4MYwV01DtQW8WNsA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+            'https://imdb-video.media-imdb.com/vi1570226969/1434659607842-pgv4ql-1633638588769.mp4?Expires=1663892929&Signature=OBXY-B2Lr7DdNql9XmAIOP-U1t4GqX5vMs5ldMXF5D7K4Yi1a-XImqIn2TQhbQFwxLAb1p~e~Oe9epZQq7vmTuqU1U5PV4idt02usv0KqQKyD0DzAI37mS6Xi-W8Klduhtd1Kdt7T~yeRnf6djjOI~6m2a2AEnqe1ZawnqqEKB-IVnX~tmghdQN3DtejlMRklgMTuNVSPOIKOzaB4WXjd3K0FBlH9FflXx1M2SUTQyxGM-21QPJLBEaIHIXzBRADTQO9Yc1X8IIhhE2bEa3~vSN4mAODxc20ytpOKktgfgb7OOx8wrT7UVpCrTtc1VFQJNPUz79uWGqMxB612-eR7A__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
     },
     {
         title: 'Dilan 1990',
@@ -42,7 +42,7 @@ const movies = [
             'Milea (Vanesha Prescilla) met with Dilan (Iqbaal Ramadhan) at a high school in Bandung in 1990. An unusual introduction brings Milea to know the uniqueness of Dilan who is smart, kind, and romantic in her eyes.',
         poster: '/src/dilanposter.jpg',
         trailer:
-            'https://imdb-video.media-imdb.com/vi895795993/1434659607842-pgv4ql-1645623126623.mp4?Expires=1663314359&Signature=LLHDkQhYyA~EocRwOylvjcZvGS11NIwXfA1rSFQEm5LWunXHMz5F93rPROzFFUrqzPtnHz-2Wk-pk7OIpE9S5Evqt2N3vZ0Mcm-e2aWK-uIe~BfJR426zadqi8yOV0D2VuZfTEO~Hu2~HlP2BXXTKt4VcUTVFK1-2QYTqZUX0kFO4KLhWMiAz70RCYkpaelh7qo5yfGGcn5wxRON6ngPYICQK01j~Sj5rYhkRsKRPRJsP16pMaaezP6NPhOYKiiIf~aH3~3FKpYZegKV6Hrm1jdbKi4j4GVU7JYgNmzuJsSY7EcTI0QNVHOahaKB8OK4ATJ693fRDfSUrRBifk7Ikw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
+            'https://imdb-video.media-imdb.com/vi895795993/1434659607842-pgv4ql-1645623126623.mp4?Expires=1663892985&Signature=YXe6V6zvd6rqlU7QKFRDSd5oj02cXG1KEl2sK-IgrOLmPDHU0vlF2n-ytgn4WvLKYy4eMYH7ZgbY4NPGrhkYG0tcFkPd4YBDdyEClDu2GAQQoDhPnnBlduGGEaWYPqoF6j71RS9kgtvkXWCLYkZa3beoSTsLyBa5fvTECWwsU5v8nolrEnnBz2OGTMLKTeiTFuXVJ0QyjLkyAfX-KGkp6aZMtZi0MYnl3j9l~n32nJUwHmih4zb7VTHmwfCnbCLT-W3nlN-u7qLEjGYKr9ZM6HDyCSjv6z~lTrgtwFhoDkaMwM3x~uJ8WSuDAiJ66DWG6qkwYM6RM29CR46MVS6cPQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA',
     },
     {
         title: 'Habibi & Ainun',
